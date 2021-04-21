@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "proxy1": {
+            "matchCondition": {
+                "methods": [ "POST" ],
+                "route": "/api/HttpTrigger"
+            },
+            "backendUri": "https://fa-vnet-app-tutorial.azurewebsites.net/api/HttpTrigger"
+        }
+    }
+}
